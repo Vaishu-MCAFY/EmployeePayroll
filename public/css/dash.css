@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f7fb;
+}
+
+
+.d-flex {
+    min-height: 100vh;
+}
+
+
+.sidebar {
+
+    width: 250px;
+    min-height: 100vh;
+    background: #212529;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+
+
+.sidebar h3 {
+
+    background: #0d6efd;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+
+.sidebar .nav-link {
+
+    color: #ddd;
+    padding: 15px 20px;
+    font-size: 16px;
+    transition: 0.3s;
+
+}
+
+
+.sidebar .nav-link i {
+
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+
+.sidebar .nav-link:hover {
+
+    background: #0d6efd;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.content {
+
+    margin-left: 250px;
+    padding: 30px;
+    width: calc(100% - 250px);
+
+}
+
+
+.content h2 {
+
+    font-weight: 700;
+    color: #333;
+
+}
+
+.dashboard-card {
+
+    min-height: 180px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+
+}
+
+
+.dashboard-card:hover {
+
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+
+}
+
+
+.dashboard-card .card-body {
+
+    padding: 35px 20px;
+
+}
+
+
+.dashboard-card i {
+
+    font-size: 55px;
+
+}
+
+
+.dashboard-card h5 {
+
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+
+.dashboard-card h2 {
+
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.card {
+
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.card-header {
+
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.table {
+
+    margin-bottom: 0;
+
+}
+
+
+.table th {
+
+    text-align: center;
+    font-weight: 600;
+
+}
+
+
+.table td {
+
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+.table tbody tr:hover {
+
+    background-color: #f1f5ff;
+
+}
+
+.badge {
+
+    padding: 8px 12px;
+    font-size: 13px;
+
+}
+
+@media(max-width:768px){
+
+
+    .sidebar {
+
+        width: 100%;
+        height: auto;
+        position: relative;
+
+    }
+
+
+    .content {
+
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+
+    }
+
+
+    .d-flex {
+
+        display: block !important;
+
+    }
+
+}
