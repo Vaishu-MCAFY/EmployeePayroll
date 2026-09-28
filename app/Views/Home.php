@@ -79,10 +79,6 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="<?= base_url('dashboard') ?>" class="nav-link">Dashboard</a>
-                </li>
-
-                <li class="nav-item">
                     <a href="<?= base_url('logout') ?>" class="nav-link">Logout</a>
                 </li>
 
