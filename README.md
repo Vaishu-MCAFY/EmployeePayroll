@@ -7,6 +7,7 @@ The "Employee Payroll Management System" is a web-based application developed to
 The application  manage employee records, calculate salaries, maintain payroll records, generate payslips, and prepare  reports. It reduces manual work and provides a simple interface for managing employee salary information.
 
 
+
 ## 🛠️ Technologies Used
 
 | Technology  | Purpose                                 |
@@ -164,71 +165,7 @@ The Reports module provides payroll and employee-related information.
 * Year
 * Net Salary
 
-# Payroll Management System
 
-## Project Overview
-
-The **Payroll Management System** is a web-based application developed using PHP, CodeIgniter 4, MySQL, HTML5, CSS3, and JavaScript. It is designed to simplify employee management, payroll processing, payslip generation, and payroll reporting.
-
-The system provides a centralized platform for managing employee information, calculating salary details, maintaining payroll records, generating payslips, and viewing payroll reports. It follows the MVC (Model-View-Controller) architecture supported by CodeIgniter to organize application logic, database operations, and user interface components.
-
-## Technologies Used
-
-- **HTML5** – Structure of web pages
-- **CSS3** – Styling and responsive user interface
-- **JavaScript** – Client-side interactivity
-- **PHP** – Backend application logic
-- **CodeIgniter 4** – PHP MVC framework
-- **MySQL** – Database management
-- **Bootstrap** – Responsive UI components, if configured
-- **Composer** – PHP dependency management
-- **Apache / XAMPP** – Local development server
-
-## Project Features
-
-### 1. Home Page
-- Welcome page
-- Navigation menu
-- Access to login and application features
-
-### 2. Authentication
-- User login
-- Credential validation
-- Session management
-- Logout functionality
-
-### 3. Dashboard
-- Overview of employee records
-- Employee management navigation
-- Payroll management navigation
-- Quick access to payslips and reports
-
-### 4. Employee Management
-- Add new employees
-- View employee details
-- Display the employee list
-- Update employee information
-- Delete employee records
-
-### 5. Payroll Management
-- Create payroll records
-- Maintain employee salary information
-- Store payroll details
-- View payroll records
-- Manage salary calculations based on the implemented payroll logic
-
-### 6. Payslip Generation
-- Generate employee payslips
-- Display salary breakdowns
-- Present payroll details in a printable format
-- View employee salary information
-
-### 7. Reports
-- Access payroll reports
-- Review employee payroll information
-- Support payroll record analysis
-
-  
 
 ## Project Structure
 
@@ -297,6 +234,8 @@ PayrollManagement/
 └── README.md
 
 
+
+
 ▶️ Installation
 
 Step 1: Install the following:
@@ -334,41 +273,44 @@ Open:
 http://localhost:8080
 
 
+
 ## Implementation 
 
--HTML5 payslip template and salary table
+* HTML5 payslip template and salary table
 
--CSS3 print stylesheet
+* CSS3 print stylesheet
 
--Bootstrap employee list and status badges
+* Bootstrap employee list and status badges
 
--Responsive dashboard and HR forms
+* Responsive dashboard and HR forms
 
--CodeIgniter 4 MVC architecture
+* CodeIgniter 4 MVC architecture
 
--HR login and session management
+* HR login and session management
 
--File handling for payslip downloads
+* File handling for payslip downloads
 
--Form validation
+* Form validation
 
--MySQL salary and payroll tables
+* MySQL salary and payroll tables
 
--Query Builder for payroll operations
+* Query Builder for payroll operations
 
--Employee CRUD operations
+* Employee CRUD operations
+
 
 
 ## Future Enhancements
 
-- Employee attendance management
-- Tax and deduction calculations
-- Overtime and bonus management
-- PDF payslip downloads
-- Payroll payment status tracking
-- Role-based access control
-- Advanced payroll analytics
-- Email notifications for payslips
+* Employee attendance management
+* Tax and deduction calculations
+* Overtime and bonus management
+* PDF payslip downloads
+* Payroll payment status tracking
+* Role-based access control
+* Advanced payroll analytics
+* Email notifications for payslips
+
 
 
 ## Author
